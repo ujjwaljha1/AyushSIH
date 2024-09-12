@@ -1,14 +1,14 @@
 import React from 'react'
 import BannerCarousel from './Home/Calousel'
-import Innovative from './Home/Innovative'
+import FAQ from './Faq/Faq'
 
-function Home() {
+function FAQHome() {
   return (
     <div>
         <BannerCarousel/>
-        <Innovative/>
+        <FAQ/>
     </div>
   )
 }
 
-export default Home
+export default FAQHome

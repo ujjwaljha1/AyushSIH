@@ -14,6 +14,7 @@ const govRoutes = require('./routes/govRoutes');
 dotenv.config();
 const app = express();
 
+app.use('/api/uploads', express.static(path.join(__dirname, 'uploads')));
 // Connect Database
 connectDB();
 

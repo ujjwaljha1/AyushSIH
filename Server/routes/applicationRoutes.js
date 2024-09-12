@@ -11,5 +11,7 @@ router.post('/', upload.fields([
 ]), applicationController.submitApplication);
 
 router.get('/:applicationId', applicationController.getApplicationStatus);
+router.get('/past', applicationController.getPastApplications);
+
 
 module.exports = router;

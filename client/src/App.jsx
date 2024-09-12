@@ -6,6 +6,8 @@ import ApplicationTracking from "./Pages/Tracking/Tracking";
 import MultiPageForm from "./Pages/Form/ApplicationForm";
 import AdminReviewPage from "./Pages/Views/Admin";
 import GovOfficialPage from "./Pages/Views/Govt";
+import FAQHome from "./Pages/FAQHome";
+import PastApplicationsPage from "./Pages/Views/Past";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
         <Route path="/applicationform" element={<MultiPageForm/>}/>
         <Route path="/AdminApplication" element={<AdminReviewPage/>}/>
         <Route path="/GovApplication"element={<GovOfficialPage/>}/>
-      </Routes>
+        <Route path="/FAQ" element={<FAQHome/>}/>
+        <Route path="/past"element={<PastApplicationsPage/>}/>
+       </Routes>
     </Router>
   );
 }
