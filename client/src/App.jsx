@@ -8,6 +8,8 @@ import AdminReviewPage from "./Pages/Views/Admin";
 import GovOfficialPage from "./Pages/Views/Govt";
 import FAQHome from "./Pages/FAQHome";
 import PastApplicationsPage from "./Pages/Views/Past";
+import Footer from "./Pages/Home/Footer";
+import PMSS from "./Pages/Blogs/PMSS";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
         <Route path="/GovApplication"element={<GovOfficialPage/>}/>
         <Route path="/FAQ" element={<FAQHome/>}/>
         <Route path="/past"element={<PastApplicationsPage/>}/>
+        <Route path ="/pmsss"element={<PMSS/>}/>
        </Routes>
+       <Footer/>
     </Router>
   );
 }

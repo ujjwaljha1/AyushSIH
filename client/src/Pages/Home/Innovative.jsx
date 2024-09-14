@@ -18,7 +18,7 @@ export default function Innovative() {
         <Card className="col-span-1 md:col-span-2">
           <CardContent className="p-0">
             <img 
-              src="/placeholder.svg"
+              src="https://www.aicte-india.org/sites/default/files/aslapbanner.jpg"
               alt="AICTE Student Learning Assessment Project" 
               className="w-full h-auto"
             />
@@ -29,7 +29,7 @@ export default function Innovative() {
           <Card onClick={() => handleCardClick('/pmsss')}>
             <CardContent className="p-4">
               <img 
-                src="/placeholder.svg" 
+                src="https://aicte-india.org/sites/all/themes/educational/js/chat-bot/images/slide3.png" 
                 alt="Prime Minister's Special Scholarship Scheme" 
                 className="w-full h-auto mb-2" 
               />
@@ -41,7 +41,7 @@ export default function Innovative() {
           <Card onClick={() => handleCardClick('/unnat-bharat')}>
             <CardContent className="p-4">
               <img 
-                src="/placeholder.svg" 
+                src="https://www.aicte-india.org/sites/default/files/aslapbanner.jpg" 
                 alt="Unnat Bharat Abhiyan" 
                 className="w-full h-auto mb-2" 
               />
