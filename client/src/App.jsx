@@ -17,14 +17,14 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Login" element={<LoginSignup/>}/>
-        <Route path="/tracking" element={<ApplicationTracking/>}/>
-        <Route path="/applicationform" element={<MultiPageForm/>}/>
+        <Route path="/Login" element={<LoginSignup/>}/>    {/*Public */}
+         <Route path="/tracking" element={<ApplicationTracking/>}/>  {/*Public */}
+        <Route path="/applicationform" element={<MultiPageForm/>}/>    {/*Public */}
         <Route path="/AdminApplication" element={<AdminReviewPage/>}/>
         <Route path="/GovApplication"element={<GovOfficialPage/>}/>
-        <Route path="/FAQ" element={<FAQHome/>}/>
-        <Route path="/past"element={<PastApplicationsPage/>}/>
-        <Route path ="/pmsss"element={<PMSS/>}/>
+        <Route path="/FAQ" element={<FAQHome/>}/> {/*Public */}
+        <Route path="/past"element={<PastApplicationsPage/>}/>  
+        <Route path ="/pmsss"element={<PMSS/>}/>    {/*Public */}
        </Routes>
        <Footer/>
     </Router>
