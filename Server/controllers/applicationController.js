@@ -7,35 +7,6 @@ const generateApplicationId = () => {
     return Math.floor(10000000 + Math.random() * 90000000).toString();
   };
 
-// exports.submitApplication = async (req, res) => {
-//   try {
-//     const applicationData = {
-//       ...req.body,
-//       marksheet12th: req.files['marksheet12th'][0].path,
-//       familyIncomeCertificate: req.files['familyIncomeCertificate'][0].path,
-//       passbookFirstPage: req.files['passbookFirstPage'][0].path,
-//       aadharFrontPage: req.files['aadharFrontPage'][0].path,
-//       status: 'Pending',
-//       applicationId: generateApplicationId()
-//     };
-
-//     const application = new Application(applicationData);
-//     await application.save();
-
-//     // await emailService.sendApplicationSubmittedEmail(application.email, application.applicationId);
-//     await emailService.sendApplicationEmail(
-//         application.email,
-//         `${application.firstName} ${application.lastName}`,
-//         application.applicationId,
-//         'Submitted',
-//         'Pending'
-//       );
-
-//     res.status(201).json({ applicationId: application.applicationId });
-//   } catch (error) {
-//     res.status(400).json({ message: error.message });
-//   }
-// };
 
 exports.submitApplication = async (req, res) => {
   try {

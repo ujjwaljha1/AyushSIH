@@ -1,28 +1,3 @@
-// const Application = require('../models/Application');
-// const emailService = require('../services/emailService');
-
-// exports.getApprovedApplications = async (req, res) => {
-//   try {
-//     const applications = await Application.find({ status: 'Approved', paymentStatus: 'Pending' });
-//     res.json(applications);
-//   } catch (error) {
-//     res.status(400).json({ message: error.message });
-//   }
-// };
-
-// exports.releasePayment = async (req, res) => {
-//   try {
-//     const application = await Application.findByIdAndUpdate(req.params.id, 
-//       { paymentStatus: 'Released' },
-//       { new: true }
-//     );
-//     await emailService.sendPaymentReleasedEmail(application.email, application.applicationId);
-//     res.json(application);
-//   } catch (error) {
-//     res.status(400).json({ message: error.message });
-//   }
-// };
-
 
 const Application = require('../models/Application');
 const emailService = require('../services/emailService');

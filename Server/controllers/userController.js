@@ -55,30 +55,7 @@ exports.registerUser = async (req, res) => {
     }
 };
 
-// exports.loginUser = async (req, res) => {
-//     try {
-//         const { loginIdentifier, password } = req.body;
 
-//         const user = await User.findOne({
-//             $or: [{ email: loginIdentifier }, { userId: loginIdentifier }]
-//         });
-
-//         if (user && (await user.matchPassword(password))) {
-//             res.json({
-//                 _id: user._id,
-//                 fullName: user.fullName,
-//                 email: user.email,
-//                 userId: user.userId,
-//                 role: user.role,
-//                 token: generateToken(user._id),
-//             });
-//         } else {
-//             res.status(401).json({ message: 'Invalid email/userId or password' });
-//         }
-//     } catch (error) {
-//         res.status(500).json({ message: 'Server error', error: error.message });
-//     }
-// };
 
 exports.loginUser = async (req, res) => {
     const { loginIdentifier, password } = req.body;
