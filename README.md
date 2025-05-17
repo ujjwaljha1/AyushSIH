@@ -84,9 +84,9 @@ server/
 ### 🚧 Steps
 
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/scholarship-portal.git
-cd scholarship-portal
+# Clone the repository
+git clone https://github.com/ujjwaljha1/PMSS.git
+cd PMSS
 
 # Install dependencies
 npm install
