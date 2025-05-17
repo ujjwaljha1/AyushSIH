@@ -7,7 +7,7 @@
 
 
 
-// const API_URL = 'http://localhost:5000/api'; // Update this with your actual API URL
+// const API_URL = 'https://ayushsih-production.up.railway.app/api'; // Update this with your actual API URL
 
 
 
@@ -90,7 +90,7 @@
 // import { Loader2, FileCheck, UserCheck, DollarSign } from 'lucide-react';
 // import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
-// const API_URL = 'http://localhost:5000/api'; // Update this with your actual API URL
+// const API_URL = 'https://ayushsih-production.up.railway.app/api'; // Update this with your actual API URL
 
 // const StatusCard = ({ title, description, icon: Icon, active }) => (
 //   <Card className={`mb-4 ${active ? 'border-green-500 border-2' : ''}`}>
@@ -204,7 +204,7 @@ import { Input } from '@/components/ui/input';
 import { Loader2, FileCheck, UserCheck, DollarSign } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
-const API_URL = 'http://localhost:5000/api'; // Update this with your actual API URL
+const API_URL = 'https://ayushsih-production.up.railway.app/api'; // Update this with your actual API URL
 
 const StatusCard = ({ title, description, icon: Icon, active }) => (
   <Card className={`h-full ${active ? 'border-green-500 border-2' : 'border-gray-200'}`}>

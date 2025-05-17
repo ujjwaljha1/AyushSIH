@@ -8,7 +8,7 @@ import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { EyeIcon, EyeOffIcon, UserIcon, MailIcon, PhoneIcon, LockIcon } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/users'; // Update this with your actual API URL
+const API_URL = 'https://ayushsih-production.up.railway.app/api/users'; // Update this with your actual API URL
 
 const AyushIcon = () => (
   <svg

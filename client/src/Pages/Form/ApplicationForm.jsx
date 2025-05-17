@@ -14,7 +14,7 @@ import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Separator } from '@/components/ui/separator';
 import { ChevronLeft, ChevronRight, Volume2, X } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://ayushsih-production.up.railway.app/api';
 
 const GovernmentApplicationForm = () => {
   const navigate = useNavigate();

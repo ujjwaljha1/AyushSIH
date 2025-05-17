@@ -4,7 +4,7 @@
 // // import { Input } from '@/components/ui/input';
 // // import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/card';
 
-// // const API_URL = 'http://localhost:5000/api'; // Update this with your actual API URL
+// // const API_URL = 'https://ayushsih-production.up.railway.app/api'; // Update this with your actual API URL
 
 
 // // const AdminReviewPage = () => {
@@ -28,7 +28,7 @@
 // //     const fetchApplications = async () => {
 // //       try {
 // //         const token = localStorage.getItem('userToken');
-// //         const response = await axios.get('http://localhost:5000/api/admin/applications', {
+// //         const response = await axios.get('https://ayushsih-production.up.railway.app/api/admin/applications', {
 // //           headers: {
 // //             Authorization: `Bearer ${token}`
 // //           }
@@ -118,7 +118,7 @@
 // import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 // import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
-// const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'https://ayushsih-production.up.railway.app/api';
 
 // const AdminReviewPage = () => {
 //   const [applications, setApplications] = useState([]);
@@ -342,7 +342,7 @@ import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/card'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://ayushsih-production.up.railway.app/api';
 
 const AdminReviewPage = () => {
   const [applications, setApplications] = useState([]);
